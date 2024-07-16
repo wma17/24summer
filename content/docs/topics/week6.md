@@ -1,23 +1,22 @@
 # Week 6
 
-Topic: Driving Neural Networks: An Exploration of Optimizers in Deep Learning & Ramblings in Optimization
+Topic: Responsible AI: Explainability
 
-Keynote Speaker: Wang Ma
+Keynote Speaker: 
 
-Time: Jul 27, 19:30 - 21:00 pm
+Time: Aug 26, 20:00 - 21:30 pm
 
-Venue: Lecture Hall 3, 302 (SUSTech)
+Venue: Room 338, School of Business
 
-Online Link: [TencentMeeting](https://meeting.tencent.com/dm/ciI4lpALLhxz)
+Online Link: TBA
 
 ## Compendium
 
-Update soon
+
+
 
 ## Material
 
-The weekly [slide](https://nbviewer.org/github/niusj03/23summer/blob/master/content/docs/pdfs/Week6_Ma.pdf) from Wang Ma.
 
 ## References
 
-Update soon
