@@ -6,8 +6,8 @@ headless: true
 <br />
 
 - **Topics**
-- [Week1]({{< relref "/docs/topics/week1" >}})
-- [Week2]({{< relref "/docs/topics/week2" >}})
+- [Week1: Bayesian Optimization]({{< relref "/docs/topics/week1" >}})
+- [Week2: Gradient Flow]({{< relref "/docs/topics/week2" >}})
 - [Week3]({{< relref "/docs/topics/week3" >}})
 - [Week4]({{< relref "/docs/topics/week4" >}})
 - [Week5]({{< relref "/docs/topics/week5" >}})
