@@ -16,18 +16,10 @@ Participants are encouraged to refer to the following resource for foundational 
 - **Dates:** Every Monday, from July 12th on
 - **Location:** Room 338, School of Business
 
-### Organizers
-- **Prof. Chao Wang**
-- **Wang Ma**
-
-### Supervisor
-- **Prof. Chao Wang**
-
-### Presenter
-- **Wang Ma**, **Yicheng Wu**, **Xunjian Li**,...
 
 ### Format
-The discussion group will primarily be conducted offline, with potential online channels via Tencent Meeting or Bilibili. Each session will feature presentations by selected participants, with each sub-topic assigned to 1-3 individuals (to be confirmed two weeks in advance).
+The Seminar will primarily be conducted offline, with potential online channels via Tencent Meeting or Bilibili. Each session will feature presentations by selected participants, with each sub-topic assigned to 1-3 individuals (to be confirmed two weeks in advance).
+
 
 ### Content Outline
 
