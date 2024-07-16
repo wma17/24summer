@@ -15,7 +15,7 @@ theme = "hugo-book"
 # [[menu.before]]
 [[menu.after]]
   name = "Github"
-  url = "https://github.com/niusj03/23summer"
+  url = "https://github.com/wma17/24summer"
   weight = 10
 
 
