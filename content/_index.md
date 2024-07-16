@@ -1,31 +1,30 @@
 ---
-title: Introduction to and Advances in Self-Supervised Learning
+title: AI: Optimization, Theory & Responsibility
 type: docs
 ---
 
-# Introduction to and Advances in Self-Supervised Learning
+# AI: Optimization, Theory & Responsibility
 
-The seminar has now ended, click to [**acknowledgement**](/docs/acknowledge) page.
+The seminar is ongoing.
 
 ## Personnel
 
-**Organizers**: Prof. Chao Wang, Shengjie Niu
+**Organizers**: Prof. Chao Wang, Wang Ma
 
 **Supervisor**: Prof. Chao Wang
 
-**Keynote Speakers**: Wang Ma, Zebin Yun, Shengjie Niu, Lifan Lin, Yue Wu, Xinyao Li, Yiming Zhang, Shengqi Fang, Xunyi Jiang, Langtian Ma.
+**Keynote Speakers**: Wang Ma, Yicheng Wu, Xunjian Li...
 
 ## Introduction
 
-This seminar focuses primarily on important topics in deep learning, specifically self-supervised learning. The topics will range from an introduction to self-supervised learning to the latest advancements. We also welcome individuals from related fields to share their insights, such as transfer learning, meta-learning, and so on. Depending on our progress, some signigicant and parctical topics like optimizers and backbones may also incorporated as additional sessions.
+This seminar series will delve into critical topics in AI(Deep Learning), with a special emphasis on optimization, theory, and responsibility. The sessions will include a mix of fundamental concepts and cutting-edge research, encouraging participants to engage deeply with the material. We also invite students or researchers from related fields to share their perspectives, enhancing our collective understanding of these complex topics. Depending on our progress, additional significant and practical topics might be incorporated into the schedule.
 
-We will be hosting a group study on deep learning at each Thursday 19:30 - 21:00 pm in **Lecture Hall 3, 302** (The first week will be at Wednesday 11:00 - 12:30 am in Business Hall 314). The online link for first seminar is [**TencentMeeting**](https://sustech.meeting.tencent.com/dm/8FKe79A6nA1k). The following online links are [**TencentMeeting**](https://sustech.meeting.tencent.com/dm/rzsV1UdvWHtp).
+We will be hosting this seminar **every Monday** from 20:00 to 21:30 in **Room 338, School of Business**, starting July 22.
 
-**Notification: The venue for following seminars has been changed to Lecture Hall 3, 302 owing to scheduling conflicts.**
 
 ## Remarks
 
-* The main personnel for this seminar are undergraduate students, and we welcome anyone interested in SSL (Self-Supervised Learning) or Deep Learning to attend.
+* The main personnel for this seminar are undergraduate students, and we welcome anyone interested in Deep Learning to attend.
 
 * This is a fast-paced and demanding study group which covers both fundementals of deep learning and recent advances. We highly encourage everyone to read the related materials before the group study.
 
@@ -33,4 +32,4 @@ We will be hosting a group study on deep learning at each Thursday 19:30 - 21:00
 
 ## More
 
-Click [**Get Schedule**](/docs/schedule) to view our detailed timetable. Please click [**Mail**](mailto:niusj03@gmail.com) directly if you have any questions.
+Click [**Get Schedule**](/docs/schedule) to view our detailed timetable. Please contact [**Mail**](mailto:wangma2002@gmail.com) directly if you have any questions.
