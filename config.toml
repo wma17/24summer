@@ -1,6 +1,6 @@
-baseURL = "https://niusj03.github.io/23summer"
+baseURL = "https://wma17.github.io/24summer/"
 languageCode = 'en-us'
-title = '23 Summer Study'
+title = '24 Summer Seminar'
 theme = "hugo-book"
 
 
