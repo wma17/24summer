@@ -13,7 +13,7 @@ The seminar is ongoing.
 
 **Supervisor**: [Prof. Chao Wang](https://wangcmath.github.io/)
 
-**Keynote Speakers**: [Wang Ma](https://wma17.github.io/), Yicheng Wu, Xunjian Li...
+**Keynote Speakers**: [Wang Ma](https://wma17.github.io/), Yicheng Wu, Dr. Xunjian Li...
 
 ## Introduction
 
