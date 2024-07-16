@@ -9,11 +9,11 @@ The seminar is ongoing.
 
 ## Personnel
 
-**Organizers**: Prof. Chao Wang, Wang Ma
+**Organizers**: [Prof. Chao Wang](https://wangcmath.github.io/), [Wang Ma](https://wma17.github.io/)
 
-**Supervisor**: Prof. Chao Wang
+**Supervisor**: [Prof. Chao Wang](https://wangcmath.github.io/)
 
-**Keynote Speakers**: Wang Ma, Yicheng Wu, Xunjian Li...
+**Keynote Speakers**: [Wang Ma](https://wma17.github.io/), Yicheng Wu, Xunjian Li...
 
 ## Introduction
 
