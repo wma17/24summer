@@ -1,5 +1,5 @@
 ---
-title: AI: Optimization, Theory & Responsibility
+title: "AI: Optimization, Theory & Responsibility"
 type: docs
 ---
 
