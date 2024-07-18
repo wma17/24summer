@@ -1,8 +1,8 @@
 # Week 4
 
-Topic: NTK Application
+Topic: Responsible AI: Bias & Fairness
 
-Keynote Speaker: 
+Keynote Speaker: Rongkun Zhu, Bochao Li, Jingsong Zhou
 
 Time: Aug 12, 20:00 - 21:30 pm
 
