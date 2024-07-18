@@ -2,7 +2,7 @@
 
 Topic: Responsible AI: Bias & Fairness
 
-Keynote Speaker: 
+Keynote Speaker: Rongkun Zhu, Bochao Li, Jingsong Zhou
 
 Time: Aug 19, 20:00 - 21:30 pm
 
