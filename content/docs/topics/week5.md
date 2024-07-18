@@ -1,8 +1,8 @@
 # Week 5
 
-Topic: Responsible AI: Bias & Fairness
+Topic: TBA
 
-Keynote Speaker: Rongkun Zhu, Bochao Li, Jingsong Zhou
+Keynote Speaker: TBA
 
 Time: Aug 19, 20:00 - 21:30 pm
 
