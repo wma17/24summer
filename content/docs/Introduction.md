@@ -13,8 +13,9 @@ Welcome to the 2024 Summer Seminar on **AI: Optimization, Theory & Responsibilit
 Participants are encouraged to refer to the following resource for foundational knowledge and deeper insights: [Understanding Deep Learning](https://udlbook.github.io/udlbook/).
 
 ### Schedule
-- **Dates:** Every Monday, from July 12th on
+- **Dates:** Every Monday, from July 22th on
 - **Location:** Room 338, School of Business
+- **Online Tencent Meeting:** 907-2153-6929
 
 
 ### Format
