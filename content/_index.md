@@ -21,6 +21,8 @@ This seminar series will delve into critical topics in AI(Deep Learning), with a
 
 We will be hosting this seminar **every Monday** from 20:00 to 21:30 in **Room 338, School of Business**, starting July 22.
 
+**<span style="color: red;">Online Tencent Meeting: #907-2153-6929。</span>**
+
 
 ## Remarks
 
