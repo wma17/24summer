@@ -1,3 +1,11 @@
+---
+title: "Week 1"
+---
+
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+
 # Week 1
 
 Topic: Bayesian Optimization
