@@ -30,7 +30,7 @@ where $f$ is continuous, derivative-free, expensive, and possibly noisy.
 ### 3. Gaussian Process Model
 A Gaussian Process (GP) models $f$ with a mean function $m(x)$ and a covariance function $k(x, x')$:
 - Mean: $m(x) = \mathbb{E}[f(x)]$
-- Covariance: $k(x, x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))]$
+- Covariance: $$k(x, x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))]$$
 
 #### Common Covariance Functions
 - Squared Exponential
