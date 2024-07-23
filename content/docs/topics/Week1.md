@@ -66,7 +66,7 @@ Bayesian Optimization effectively optimizes expensive and noisy functions by lev
 
 ## Material
 
-https://wma17.github.io/24summer/content/docs/pdfs/week1_BayesOPT.html
+<embed src="/content/docs/pdfs/Week1_BayesOPT.pdf" type="application/pdf" width="100%" height="600px" />
 
 
 ## References
