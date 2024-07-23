@@ -13,24 +13,24 @@ Tencent Meeting: #907-2153-6929
 ## Compendium
 
 ### Introduction
-Bayesian Optimization (BO) is a machine-learning-based method for optimizing expensive, noisy, and black-box functions without gradient information. It excels in high-dimensional spaces (typically $ d \leq 20 \)) and is used in applications like hyperparameter optimization, algorithm tuning, and materials discovery.
+Bayesian Optimization (BO) is a machine-learning-based method for optimizing expensive, noisy, and black-box functions without gradient information. It excels in high-dimensional spaces (typically $ d \leq 20 $) and is used in applications like hyperparameter optimization, algorithm tuning, and materials discovery.
 
 ### 1. Problem Setup
 BO aims to solve:
 $ \hat{x} = \max_{x \in A} f(x) $
-where $ f \) is continuous, derivative-free, expensive, and possibly noisy. 
+where $ f $ is continuous, derivative-free, expensive, and possibly noisy. 
 
 ### 2. Bayesian Optimization Algorithm
-1. Assume a Bayesian prior on $ f \).
+1. Assume a Bayesian prior on $ f $.
 2. Iteratively:
    - Maximize the acquisition function to find the next point.
    - Evaluate the function at this point.
-   - Update the posterior distribution on $ f \).
+   - Update the posterior distribution on $ f $.
 
 ### 3. Gaussian Process Model
-A Gaussian Process (GP) models $ f \) with a mean function $ m(x) \) and a covariance function $ k(x, x') \):
-- Mean: $ m(x) = \mathbb{E}[f(x)] \)
-- Covariance: $ k(x, x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))] \)
+A Gaussian Process (GP) models $ f $ with a mean function $ m(x) $ and a covariance function $ k(x, x') $:
+- Mean: $ m(x) = \mathbb{E}[f(x)] $
+- Covariance: $ k(x, x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))] $
 
 #### Common Covariance Functions
 - Squared Exponential
@@ -38,8 +38,8 @@ A Gaussian Process (GP) models $ f \) with a mean function $ m(x) \) and a covar
 - Rational Quadratic
 
 #### Prediction
-With observations $ f = [f(x_1), f(x_2), \ldots, f(x_t)] \), the prediction at $ x^* \) is:
-$ \mathbb{P}\left( \begin{bmatrix} f \\ f^* \end{bmatrix} \right) = \mathcal{N} \left( 0, \begin{bmatrix} K[X, X] & K[X, x^*] \\ K[x^*, X] & K[x^*, x^*] \end{bmatrix} \right) \]
+With observations $ f = [f(x_1), f(x_2), \ldots, f(x_t)] $, the prediction at $ x^* $ is:
+$ \mathbb{P}\left( \begin{bmatrix} f \\ f^* \end{bmatrix} \right) = \mathcal{N} \left( 0, \begin{bmatrix} K[X, X] & K[X, x^*] \\ K[x^*, X] & K[x^*, x^*] \end{bmatrix} \right) $
 
 ### 4. Acquisition Functions
 Acquisition functions balance exploration and exploitation to select the next evaluation point.
