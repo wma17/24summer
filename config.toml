@@ -17,7 +17,13 @@ theme = "hugo-book"
   name = "Github"
   url = "https://github.com/wma17/24summer"
   weight = 10
-
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
