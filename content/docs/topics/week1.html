@@ -52,9 +52,9 @@
 </ul>
 
 <h4>Prediction</h4>
-<p>With observations \[ f = [f(x_1), f(x_2), \ldots, f(x_t)] \], the prediction at new point is:</p>
+<p>With observations \[ f = [f(x_1), f(x_2), \ldots, f(x_t)], \] the prediction at new point will be joint normal:</p>
 <p>\[\mathbb{P}\left( \begin{bmatrix} f \\ f^* \end{bmatrix} \right) = \mathcal{N} \left( 0, \begin{bmatrix} K[X, X] & K[X, x^*] \\ K[x^*, X] & K[x^*, x^*] \end{bmatrix} \right)\]</p>
-
+<p> Then with the property of Multivariate Normal Distribution, we wil get the conditional distribution \[ \mathbb{P} (x^* | X) \ ], whose mean and variance has computable closed form. <p> 
 <h3>4. Acquisition Functions</h3>
 <p>Acquisition functions balance exploration and exploitation to select the next evaluation point.</p>
 
