@@ -14,7 +14,7 @@ Participants are encouraged to refer to the following resource for foundational 
 
 ### Schedule
 - **Dates:** Every Monday, from July 22th on
-- **Location:** Room 338, School of Business
+- **Location:** Room 341, School of Business
 - **Online Tencent Meeting:** 907-2153-6929
 
 
