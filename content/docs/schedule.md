@@ -9,7 +9,7 @@ title: "Schedule"
 | Date | Main Topic | Speaker |
 |:-----------:|:------------------:|:------:|
 | Jul 22 | [Bayesian Optimization]({{< relref "/docs/topics/week1" >}})| Wang Ma |
-| Jul 29 | Gradient Flow | Yicheng Wu |
+| Jul 29 | [Gradient Flow]({{< relref "/docs/topics/week2" >}}) | Yicheng Wu |
 |Aug 5| Neural Tangent Kernel | Xunjian Li|
 |Aug 12| Responsible AI: Bias & Fairness| Rongkun Zhu, Bochao Li, Jingsong Zhou|
 |Aug 19| TBA||
