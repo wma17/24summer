@@ -1,25 +1,123 @@
-# Week 2
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .compendium {
+            margin-top: 20px;
+        }
+        .references {
+            margin-top: 20px;
+        }
+        .math {
+            font-family: "Times New Roman", Times, serif;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
 
-Topic: Gradient Flow
+<h1>Week 2</h1>
+<p><strong>Topic:</strong> Gradient Flow</p>
+<p><strong>Keynote Speaker:</strong> Yicheng Wu</p>
+<p><strong>Time:</strong> Jul 29, 20:00 - 21:30 pm</p>
+<p><strong>Venue:</strong> Room 338, School of Business</p>
+<p><strong>Online Link:</strong> TBA</p>
 
-Keynote Speaker: Yicheng Wu
+<div class="compendium">
+    <h2>Compendium</h2>
 
-Time: Jul 29, 20:00 - 21:30 pm
+    <h3>Introduction</h3>
+    <p class="math">
+        $\begin{aligned}&\text{Suppose }\phi\in\mathbb{R}^D\text{, and }L(\phi):\mathbb{R}^D\to\mathbb{R}\text{ is smooth. Gradient flow is a smooth curve}\\&\phi(t):\mathbb{R}\to\mathbb{R}^D\text{ such that}\end{aligned}$
+    </p>
+    <p class="math">
+        $$\frac{d\phi}{dt}=-\frac{\partial L}{\partial\phi}$$
+    </p>
 
-Venue: Room 338, School of Business
+    <h3>1. Problem Setup</h3>
+    <p class="math">
+        $\begin{array}{l}\text{Suppose now that}I\text{ pairs of independent sample points }\{\mathbf{x}_{i},y_{i}\}_{i=1}^{l}\text{ have been obtained, A}\\\text{model f}[\mathbf{x},\phi]\text{ needs to be used to fit the observed data.}\end{array}$
+    </p>
 
-Online Link: TBA
+    <h3>2. Gradient Descent Algorithms</h3>
+    <ul>
+        <li>Gradient Descent Variants
+            <ul>
+                <li>Stochastic Gradient Descent
+                    <ul>
+                        <li>Mini-batch Stochastic Gradient Descent</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Momentum Algorithm
+            <ul>
+                <li>Standard Momentum Algorithm</li>
+                <li>Nesterov Accelerated Gradient</li>
+            </ul>
+        </li>
+        <li>Adaptive Subgradient Method
+            <ul>
+                <li>Adagrad</li>
+                <li>Adadelta</li>
+                <li>RMSprop</li>
+            </ul>
+        </li>
+    </ul>
 
-## Compendium
+    <h3>3. Gradient Flow in Linear Regression</h3>
+    <p class="math">
+        Gradient Descent Update Rule:
+        $$\phi_{t+1}=\phi_t-\alpha\cdot\frac{\partial L}{\partial\phi},$$
+        where $\phi_t$ represents the parameters at time $t$ and $\alpha$ is termed the learning rate.
+        $$\frac{\phi_{t+1}-\phi_t}\alpha=-\frac{\partial L}{\partial\phi},$$
+        when an infinitesimally small learning rate $\alpha$ is employed:
+        $$\frac{d\phi}{dt}=-\frac{\partial L}{\partial\phi}.$$
+        This ordinary differential equation (ODE) is known as gradient flow.
+    </p>
+</div>
 
+<div class="material">
+<h2>Material</h2>
 
+<p>Presentation Slides(Thanks to <a href="https://changliu00.github.io/">Dr. Chang Liu</a>): <a href="https://wma17.github.io/24summer/docs/pdfs/Week2_GradientFlow.pdf">https://wma17.github.io/24summer/docs/pdfs/Week2_GradientFlow.pdf</a></p>
+<iframe src="https://wma17.github.io/24summer/docs/pdfs/Week2_GradientFlow.pdf" width="100%" height="600px"></iframe>
+</div>
 
+<div class="references">
+    <h3>References</h3>
+    <ol>
+        <li>Chang Liu. Gradient Flow. Retrieved from https://changliu00.github.io/static/Gradient-Flow.pdf, 2017.</li>
+        <li>Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Man, Rajat Monga, Sherry Moore, Derek Murray, Jon Shlens, Benoit Steiner, Ilya Sutskever, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Oriol Vinyals, Pete Warden, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems. 2015.</li>
+        <li>Yoshua Bengio, Nicolas Boulanger-Lewandowski, and Razvan Pascanu. Advances in Optimizing Recurrent Networks. 2012.</li>
+        <li>Yoshua Bengio, Jérôme Louradour, Ronan Collobert, and Jason Weston. Curriculum learning. Proceedings of the 26th annual international conference on machine learning, pages 41–48, 2009.</li>
+        <li>C. Darken, J. Chang, and J. Moody. Learning rate schedules for faster stochastic gradient search. Neural Networks for Signal Processing II Proceedings of the 1992 IEEE Workshop, (September):1–11, 1992.</li>
+        <li>Yann N. Dauphin, Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, Surya Ganguli, and Yoshua Bengio. Identifying and attacking the saddle point problem in high-dimensional non convex optimization. arXiv, pages 1–14, 2014.</li>
+        <li>Jeffrey Dean, Greg S. Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Quoc V. Le, Mark Z. Mao, Marc Aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, and Andrew Y. Ng. Large Scale Distributed Deep Networks. NIPS 2012: Neural Information Processing Systems, pages 1–11, 2012.</li>
+        <li>Timothy Dozat. Incorporating Nesterov Momentum into Adam. ICLR Workshop, (1):2013–2016, 2016.</li>
+        <li>John Duchi, Elad Hazan, and Yoram Singer. Adaptive Subgradient Methods for Online Learning and Stochastic Optimization. Journal of Machine Learning Research, 12:2121–2159, 2011.</li>
 
-## Material
+      
+    </ol>
+</div>
 
-
-## References
-
+</body>
+</html>
 
 
 
