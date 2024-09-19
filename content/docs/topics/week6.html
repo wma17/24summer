@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 - Bayesian Neural Networks</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<h1>Week 1</h1>
+
+<p><strong>Topic:</strong> Introduction to Bayesian Neural Networks</p>
+<p><strong>Keynote Speaker:</strong> Wang Ma</p>
+<p><strong>Time:</strong> Sept 2, 20:00 - 21:30</p>
+<p><strong>Venue:</strong> Room 314, School of Business</p>
+<p><strong>Tencent Meeting:</strong> #907-2153-6929</p>
+
+<h2>Compendium</h2>
+
+<h3>Introduction</h3>
+<p>This tutorial provides a detailed overview of Bayesian Neural Networks (BNNs), discussing core principles such as Bayesian inference, posterior estimation, and variational inference. BNNs allow for the integration of uncertainty estimates in neural networks, making them ideal for tasks involving noisy or uncertain data.</p>
+
+<h3>1. Bayesian Inference</h3>
+<p>In Bayesian inference, the goal is to estimate the posterior distribution \( p(\theta | D) \), given the prior distribution \( p(\theta) \) and likelihood \( p(D | \theta) \).</p>
+<p>The main equation governing Bayesian inference is:</p>
+<p>\[ p(\theta | D) = \frac{p(D | \theta) p(\theta)}{p(D)} \]</p>
+<p>Where:</p>
+<ul>
+  <li>\( p(\theta) \): prior distribution</li>
+  <li>\( p(D | \theta) \): likelihood of the data given parameters</li>
+  <li>\( p(\theta | D) \): posterior distribution</li>
+  <li>\( p(D) \): marginal likelihood (model evidence)</li>
+</ul>
+
+<h3>2. Bayesian Neural Networks (BNNs)</h3>
+<p>BNNs combine neural networks with Bayesian inference, allowing for uncertainty quantification in predictions. The standard deep learning approach seeks point estimates of parameters, while BNNs infer distributions over weights:</p>
+<p>\[ p(\theta | D) \propto p(D | \theta) p(\theta) \]</p>
+
+<h4>Advantages of BNNs:</h4>
+<ul>
+  <li>Robust predictions with uncertainty estimates.</li>
+  <li>Ability to detect out-of-distribution (OOD) and adversarial examples.</li>
+</ul>
+
+<h3>3. Approximate Inference in BNNs</h3>
+<p>Since exact inference in BNNs is intractable, we rely on approximate methods such as variational inference (VI). In VI, the goal is to approximate the posterior \( p(\theta | D) \) with a simpler distribution \( q(\theta) \) by minimizing the Kullback-Leibler (KL) divergence:</p>
+<p>\[ KL(q(\theta) || p(\theta | D)) \]</p>
+
+<h4>Key Steps in Approximate Inference:</h4>
+<ol>
+  <li>Construct an approximate posterior \( q(\theta) \).</li>
+  <li>Fit the variational distribution using methods like mean-field Gaussian approximations.</li>
+  <li>Use Monte Carlo sampling for approximate Bayesian inference.</li>
+</ol>
+
+<h3>4. Variational Inference (VI)</h3>
+<p>Variational inference transforms inference into an optimization problem, minimizing the evidence lower bound (ELBO):</p>
+<p>\[ \text{ELBO} = \mathbb{E}_{q(\theta)}[\log p(D | \theta)] - KL(q(\theta) || p(\theta)) \]</p>
+
+<p>Rewriting the ELBO provides two terms:</p>
+<ul>
+  <li>Data fitting term: Encourages the model to fit the data well.</li>
+  <li>KL regularizer: Encourages the approximate posterior to remain close to the prior.</li>
+</ul>
+
+<h3>5. Applications and Case Studies</h3>
+<h4>Case Study 1: Bayesian Optimization</h4>
+<p>This example illustrates how Bayesian optimization can be used to optimize expensive, black-box functions. The acquisition function balances exploration and exploitation.</p>
+
+<h4>Case Study 2: Detecting Adversarial Examples</h4>
+<p>BNNs help detect adversarial examples by leveraging uncertainty measures. Adversarial examples are treated as OOD data, and BNNs exhibit higher uncertainty in their predictions for such cases.</p>
+
+<h3>Conclusion</h3>
+<p>Bayesian Neural Networks provide a powerful framework for incorporating uncertainty into neural networks, leading to more robust and interpretable models. Approximate inference techniques like variational inference enable scalable learning with BNNs, despite the intractability of exact solutions.</p>
+
+<h2>Material</h2>
+
+<p>Presentation Slides (Thanks to <a href="http://yingzhenli.net/home/en/">Dr. Yingzhen Li</a>): <a href="http://yingzhenli.net/home/pdf/ProbAI2022_vi_bnn_tutorial.pdf</a></p>
+<iframe src="https://wma17.github.io/24summer/docs/pdfs/Week6_BNN.pdf" width="100%" height="600px"></iframe>
+
+<h2>References</h2>
+<ol>
+  <li>Yingzhen Li (2022). <a href="https://github.com/probabilisticai/probai-2022/blob/main/day_5/5_yingzhen/ProbAI2022_vi_bnn_tutorial.pdf">An Introduction to Bayesian Neural Networks</a></li>
+  <li>Blundell, C., et al. (2015). Weight Uncertainty in Neural Networks. ICML.</li>
+  <li>Gal, Y., & Ghahramani, Z. (2016). Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. ICML.</li>
+  <li>Kendall, A., & Gal, Y. (2017). What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? NeurIPS.</li>
+</ol>
+
+</body>
+</html>
