@@ -14,7 +14,7 @@ title: "Schedule"
 |Aug 12| [Responsible AI: Bias & Fairness]({{< relref "/docs/topics/week4" >}})| Rongkun Zhu|
 |Aug 19| [Explainability I: Local Post-hoc Explanations]({{< relref "/docs/topics/week5" >}})|Jingsong Zhou|
 |Aug 26| SKIP| SKIP|
-|Sept 2| [Bayesian Neural Networks]({{< relref "/docs/topics/week6" >}})| [Wang Ma](https://wma17.github.io/)|
+|Sept 2| [Bayesian Neural Networks](https://wma17.github.io/24summer/docs/topics/week6/)| [Wang Ma](https://wma17.github.io/)|
 
 
 Please click the topics directly for detailed information like online link, main contents and references.
