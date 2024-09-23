@@ -28,19 +28,15 @@ The Seminar will primarily be conducted offline, with potential online channels 
 - **Gradient-based optimization:** [Basic Knowledge](https://drive.google.com/file/d/1IoOSfJ0ku89aVyM9qygPl4MVnAhMEbAZ/view)
 - **Bayesian optimization:** [Tutorial](https://www.borealisai.com/research-blogs/tutorial-8-bayesian-optimization/)
 
-#### AI Theory (Weeks 2-4, July 29, August 5, 12)
+#### AI Theory (Weeks 2-3, July 29, August 5, 12)
 - **Gradient flow:** [Gradient Flow](https://www.borealisai.com/research-blogs/gradient-flow/) 
 - **Neural tangent kernel:** [NTK](https://www.borealisai.com/research-blogs/the-neural-tangent-kernel/) 
-- **NTK applications:** [NTK Applications](https://www.borealisai.com/research-blogs/neural-tangent-kernel-applications/)
 
-#### Responsible AI (Weeks 5-6, August 19, 26)
+#### Responsible AI (Weeks 4-6, August 19, 26)
 - **Bias and fairness:** [Bias and Fairness](https://www.borealisai.com/research-blogs/tutorial1-bias-and-fairness-ai/)
 - **Explainability I:** [Local Post-hoc Explanations](https://www.borealisai.com/research-blogs/explainability-i-local-post-hoc-explanations/)
-- **Explainability II:** [Global Explanations](https://www.borealisai.com/research-blogs/explainability-ii-global-explanations-proxy-models-and-interpretable-models/)
-- **Differential privacy I:** [Introduction](https://www.borealisai.com/research-blogs/tutorial-12-differential-privacy-i-introduction/)
-- **Differential privacy II:** [ML and Data Generation](https://www.borealisai.com/research-blogs/tutorial-13-differential-privacy-ii-machine-learning-and-data-generation/)
+- **Bayesian Neural Networks and Uncertainty:** [Introduction to Bayesian Neural Networks](http://yingzhenli.net/home/pdf/ProbAI2022_lecture_note.pdf)
 
-**Note:** The content in the Responsible AI section will be covered as much as possible within the given time. Additional discussion sessions may be arranged for those interested in further exploration.
 
 We look forward to your active participation and insightful contributions throughout this discussion group.
 
