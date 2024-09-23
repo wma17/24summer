@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 - Bayesian Optimization</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<h1>Week 4</h1>
+
+<p><strong>Topic:</strong> Responsible AI : Bias and Fairness</p>
+<p><strong>Keynote Speaker:</strong> Rongkun Zhu</p>
+<p><strong>Time:</strong> Aug 12, 20:00 - 21:30</p>
+<p><strong>Venue:</strong> Room 341, School of Business</p>
+<p><strong>Tencent Meeting:</strong> #907-2153-6929</p>
+
+<h2>Compendium</h2>
+
+<h3>1. Introduction</h3>
+
+<p>Bias in AI systems is a prevalent issue in real-world applications. AI algorithms, particularly machine learning models, are prone to bias because they rely on historical data that often contain biases due to past societal or organizational inequalities.</p>
+
+<p>Fairness in AI refers to creating AI models that are free from unfair bias and ensure equitable treatment across different demographic groups, such as race, gender, and socioeconomic status. Ensuring fairness is crucial for AI applications in sensitive areas like hiring, criminal justice, and lending.</p>
+
+<h3>2. Types of Bias</h3>
+
+<h4>2.1 Historical Bias</h4>
+
+<p>This type of bias arises from historical inequalities in the training data. For example, if women were underrepresented in a particular job sector, an AI model trained on that data might favor men for similar job positions.</p>
+
+<h4>2.2 Measurement Bias</h4>
+
+<p>Measurement bias happens when the features used in the AI model capture biased or partial information. For instance, using zip codes as a feature in a loan approval model might introduce racial bias.</p>
+
+<h4>2.3 Aggregation Bias</h4>
+
+<p>Aggregation bias results from treating diverse populations as homogeneous groups. A model that works well on the majority population may underperform on minority groups.</p>
+
+<h3>3. Fairness Metrics</h3>
+
+<h4>3.1 Demographic Parity</h4>
+
+<p>Demographic parity ensures that the outcome is independent of protected attributes. For instance, in hiring, the proportion of selected candidates from different demographic groups should be similar.</p>
+
+<h4>3.2 Equalized Odds</h4>
+
+<p>Equalized odds aim to equalize false positive and false negative rates across different demographic groups. For instance, a medical diagnostic model should have similar performance for men and women.</p>
+
+<h4>3.3 Fairness through Unawareness</h4>
+
+<p>This approach involves removing protected attributes, such as race or gender, from the model. However, it may not always ensure fairness as proxy variables can indirectly introduce bias.</p>
+
+<h3>4. Techniques for Fairness in AI</h3>
+
+<h4>4.1 Pre-processing</h4>
+
+<p>In this technique, the data is adjusted before being fed into the model. This includes techniques like reweighting or resampling to reduce bias.</p>
+
+<h4>4.2 In-processing</h4>
+
+<p>In-processing methods modify the learning algorithm itself. For example, constraints can be added to the model to ensure fairness during training.</p>
+
+<h4>4.3 Post-processing</h4>
+
+<p>Post-processing methods adjust the model’s output to make it fairer. For instance, the output probabilities of a classifier can be calibrated to reduce bias.</p>
+
+<h3>5. Case Study: COMPAS Recidivism Algorithm</h3>
+
+<p>The COMPAS recidivism algorithm is a widely known example of bias in AI. This algorithm, used in criminal justice for predicting the likelihood of reoffending, was found to disproportionately flag African-American defendants as high risk compared to white defendants.</p>
+
+<h3>6. Conclusion</h3>
+
+<p>Bias and fairness are critical concerns in AI systems, especially in high-stakes applications. Various fairness metrics and techniques can be applied to mitigate bias, but ensuring fairness remains a complex challenge that requires careful consideration of the context and the data being used.</p>
+
+
+
+<h2>Material</h2>
+
+<p>Presentation Slides: <a href="https://wma17.github.io/24summer/docs/pdfs/Week4_RessponsibleAI.pdf">https://wma17.github.io/24summer/docs/pdfs/Week4_RessponsibleAI.pdf</a></p>
+<iframe src="https://wma17.github.io/24summer/docs/pdfs/Week4_RessponsibleAI.pdf" width="100%" height="600px"></iframe>
+
+
+</body>
+</html>
