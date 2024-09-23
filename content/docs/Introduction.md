@@ -28,11 +28,11 @@ The Seminar will primarily be conducted offline, with potential online channels 
 - **Gradient-based optimization:** [Basic Knowledge](https://drive.google.com/file/d/1IoOSfJ0ku89aVyM9qygPl4MVnAhMEbAZ/view)
 - **Bayesian optimization:** [Tutorial](https://www.borealisai.com/research-blogs/tutorial-8-bayesian-optimization/)
 
-#### AI Theory (Weeks 2-3, July 29, August 5, 12)
+#### AI Theory (Weeks 2-3, July 29, August 5)
 - **Gradient flow:** [Gradient Flow](https://www.borealisai.com/research-blogs/gradient-flow/) 
 - **Neural tangent kernel:** [NTK](https://www.borealisai.com/research-blogs/the-neural-tangent-kernel/) 
 
-#### Responsible AI (Weeks 4-6, August 19, 26)
+#### Responsible AI (Weeks 4-6, August 5, 19 and Sept 2)
 - **Bias and fairness:** [Bias and Fairness](https://www.borealisai.com/research-blogs/tutorial1-bias-and-fairness-ai/)
 - **Explainability I:** [Local Post-hoc Explanations](https://www.borealisai.com/research-blogs/explainability-i-local-post-hoc-explanations/)
 - **Bayesian Neural Networks and Uncertainty:** [Introduction to Bayesian Neural Networks](http://yingzhenli.net/home/pdf/ProbAI2022_lecture_note.pdf)
